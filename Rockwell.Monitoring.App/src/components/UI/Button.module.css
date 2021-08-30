@@ -1,0 +1,41 @@
+.button {
+  font: inherit;
+  border-radius: .375rem;
+  border: 2px solid #cd163f;
+  padding: .375rem 1.5rem .5rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: #96112d;
+  border-color: #96112d;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition:  background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.redButton{
+  background: #cd163f;
+  color: white;
+}
+
+.redButton:hover,
+.redButton:active {
+  background: #96112d;
+  color: #cccccc;
+}
+
+.whiteButton{
+  background: white;
+  color: #cd163f;
+}
+
+.whiteButton:hover,
+.whiteButton:active {
+  background: #dddddd;
+  color: #96112d;
+}

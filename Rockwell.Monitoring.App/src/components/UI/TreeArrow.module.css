@@ -1,0 +1,9 @@
+.treeArrow{
+    background-color: transparent;
+    border-style: none;
+}
+
+.treeArrow :hover :active{
+    background-color: transparent;
+    border-style: none;
+}

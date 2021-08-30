@@ -1,0 +1,42 @@
+.scrapeJobsTable{
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid rgb(30, 30, 30);
+    border-radius: 5px;
+    border-spacing: 0px;
+    text-align: left;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+
+.scrapeJobsTable thead {
+    background-color: #cd163f;
+    color: whitesmoke;
+    border-collapse: collapse;
+}
+
+.scrapeJobsTable th, td{
+    padding: 10px 15px;
+}
+
+.scrapeJobsTable tr {
+    max-width: 100%;
+    width: 100%;
+}
+
+.viewCol {
+    column-width: 1px;
+}
+
+.jobIdCol {
+    column-width: 5%;
+}
+.urlCol {
+    column-width: 55%;
+}
+.cronCol {
+    column-width: 25%;
+}
+.creatiomCol {
+    column-width: 15%;
+}

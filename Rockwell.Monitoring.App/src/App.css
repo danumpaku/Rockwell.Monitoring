@@ -1,0 +1,48 @@
+*{
+  font-family: 'Barlow', Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  margin: auto 40px;
+  height: 48px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2); 
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+}
+
+.App-main{
+  min-height: calc(100vh - 240px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 40px;
+}
+
+.App-footer{
+  background-color: rgb(240, 240, 240);
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: 0px -3px 6px 0px rgba(0,0,0,0.2); 
+  box-shadow: 0px -3px 6px 0px rgba(0,0,0,0.2);
+}
+
+.App-footer p{
+  margin: auto;
+  color:rgb(100, 100, 100)
+}

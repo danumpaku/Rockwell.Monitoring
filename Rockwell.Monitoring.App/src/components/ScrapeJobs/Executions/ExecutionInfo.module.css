@@ -1,0 +1,18 @@
+.info {
+    background-color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    margin: 5px;
+    max-width: 100%;
+    width: 100%;
+    word-break: break-all;
+    -webkit-box-shadow: inset 0px 0px 3px 2px rgba(0,0,0,0.3); 
+    box-shadow: inset 0px 0px 3px 2px rgba(0,0,0,0.3);
+}
+
+.execErr{
+    color: red;
+}
+
+.execOk{
+    color: green;
+}
