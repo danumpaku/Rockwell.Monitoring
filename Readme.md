@@ -5,7 +5,9 @@ Ejecutar la aplicacion localmente:
  - Rockwell.Monitoring.Scraper
  - Rockwell.Monitoring.Scheduler
  - Rockwell.Monitoring.ExecutionsApi
+
 Para ejecutarlos, utilice el comando "dotnet run" desde el directorio que contiene cada servicio
+
 3. Desde el directorio Rockwell.Monitoring.App ejecute "npm i"
 4. Desde el directorio Rockwell.Monitoring.App ejecute "npm start"
 
