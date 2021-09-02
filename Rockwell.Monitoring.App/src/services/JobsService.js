@@ -1,11 +1,11 @@
-const fetchJobs = async () => {
+export const fetchJobs = async () => {
     const response = await fetch('https://localhost:5201/Jobs');
     if (!response.ok)
         throw new Error('Error fetching jobs list');
     return await response.json();
 }
 
-const createJob = async (job) => {
+export const createJob = async (job) => {
     const response = await fetch('https://localhost:5201/Jobs', {
         method: 'POST',
         body: JSON.stringify(job),
@@ -17,5 +17,3 @@ const createJob = async (job) => {
         throw new Error('Error creating job');
         await response.json();
 }
-
-export {fetchJobs, createJob}

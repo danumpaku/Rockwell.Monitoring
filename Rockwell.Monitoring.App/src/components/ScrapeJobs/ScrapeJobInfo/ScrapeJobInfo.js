@@ -1,7 +1,7 @@
 import { useState } from "react";
-import ExecutionInfo from "./Executions/ExecutionInfo";
-import TreeArrow from "../UI/TreeArrow";
-import { fetchExecutions } from '../../services/ExecutionsService';
+import ExecutionInfo from "./ExecutionInfo/ExecutionInfo";
+import TreeArrow from "../../UI/TreeArrow";
+import { fetchExecutions } from '../../../services/ExecutionsService';
 
 const ScrapeJobInfo = (props) => {
 

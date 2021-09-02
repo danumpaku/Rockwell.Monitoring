@@ -1,4 +1,4 @@
-import ScrapeJobInfo from "./ScrapeJobInfo";
+import ScrapeJobInfo from "./ScrapeJobInfo/ScrapeJobInfo";
 import styles from "./ScrapeJobsTable.module.css";
 
 import { fetchJobs } from '../../services/JobsService';
