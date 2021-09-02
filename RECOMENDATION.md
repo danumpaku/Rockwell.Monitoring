@@ -21,7 +21,7 @@ SRC\COMPONENTS\SCRAPEJOBS
             ExecutionInfo.js
             ExecutionInfo.module.css
 ```
-* uso de index.js, para dar un centido a la modo de uso de los componentes tambien es bueno
+* uso de index.js, para dar un sentido a la modo de uso de los componentes también es bueno
 
 [Rockwell.Monitoring.App\src\components\ScrapeJobs\index.js](Rockwell.Monitoring.App\src\components\ScrapeJobs\index.js)
 
