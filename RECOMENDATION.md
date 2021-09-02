@@ -2,6 +2,7 @@
 
 * Una breve explicación de que se trata el proyecto.
 * Las librerias usadas para pruebas debén estar de `devDependencies`, puedes revisar [aquí](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
+* no es necesario un gran export al final, puedes hacerlo al definir cada variable
 * Aveces es mejor tener una carpeta para el componente App cuando usa a su vez varios archivos /App/index.js /App/App.js /App/App.test.js Logo.png
 * La organización de los archivos es un poco rarita para ScrapeJobs, te propongo está, donde se demuestra la jerarquia de las dependencias de algunos componentes
 ``` tree
