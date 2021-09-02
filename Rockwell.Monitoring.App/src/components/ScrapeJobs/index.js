@@ -1,1 +1,1 @@
-export { default as ScrapeJobs } from "./ScrapeJobsContainer";
+export { default } from "./ScrapeJobsContainer";
