@@ -26,7 +26,7 @@ SRC\COMPONENTS\SCRAPEJOBS
 [Rockwell.Monitoring.App\src\components\ScrapeJobs\index.js](Rockwell.Monitoring.App\src\components\ScrapeJobs\index.js)
 
 ```js
-export { default as ScrapeJobs } from "./ScrapeJobsContainer";
+export { default } from "./ScrapeJobsContainer";
 ```
 
 [Rockwell.Monitoring.App\src\App.js](Rockwell.Monitoring.App\src\App.js)
