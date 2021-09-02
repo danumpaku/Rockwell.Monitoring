@@ -1,7 +1,7 @@
 import { useState } from "react";
-import TreeArrow from "../../UI/TreeArrow";
+import TreeArrow from "../../../UI/TreeArrow";
 import styles from "./ExecutionInfo.module.css";
-import { fetchExecutionData } from '../../../services/ExecutionsService';
+import { fetchExecutionData } from '../../../../services/ExecutionsService';
 
 const ExecutionInfo = (props) => {
 

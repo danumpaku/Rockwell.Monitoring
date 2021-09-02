@@ -1,6 +1,6 @@
 import logo from './Logo.png';
 import './App.css';
-import ScrapeJobsContainer from './components/ScrapeJobs/ScrapeJobsContainer';
+import ScrapeJobs from './components/ScrapeJobs';
 
 const App = () => 
   <div className="App">
@@ -8,7 +8,7 @@ const App = () =>
       <img src={logo} className="App-logo" alt="Rockwell Monitoring logo" />
     </header>
     <main className="App-main">
-      <ScrapeJobsContainer/>
+      <ScrapeJobs/>
     </main>
     <footer className="App-footer">
       <p>Prueba Técnica realizada por Daniel Numpaque</p>
